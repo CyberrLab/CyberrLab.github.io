@@ -1,0 +1,457 @@
+/* ===========================
+   RESPONSIVE.CSS
+   Cyber Portfolio
+=========================== */
+
+/* Large Laptop */
+
+@media screen and (max-width:1200px){
+
+.container{
+
+width:90%;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+}
+
+.hero-left{
+
+width:55%;
+
+}
+
+.hero-right{
+
+width:40%;
+
+}
+
+}
+
+
+/* Laptop */
+
+@media screen and (max-width:992px){
+
+.navbar{
+
+padding:18px 5%;
+
+}
+
+.nav-links{
+
+gap:18px;
+
+}
+
+.hero{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+padding-top:140px;
+
+}
+
+.hero-left{
+
+width:100%;
+
+}
+
+.hero-right{
+
+width:60%;
+
+margin-bottom:40px;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+.social-icons{
+
+justify-content:center;
+
+display:flex;
+
+}
+
+.about p{
+
+text-align:center;
+
+}
+
+}
+
+
+/* Tablet */
+
+@media screen and (max-width:768px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.resume-btn{
+
+display:none;
+
+}
+
+.logo{
+
+font-size:28px;
+
+}
+
+.hero{
+
+padding-top:120px;
+
+}
+
+.hero-right{
+
+width:75%;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+.section-title{
+
+font-size:34px;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+.project-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.certificate-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.contact form{
+
+width:100%;
+
+}
+
+input,
+
+textarea{
+
+font-size:16px;
+
+}
+
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:576px){
+
+.hero-right{
+
+width:95%;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero h2{
+
+font-size:20px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-bottom:15px;
+
+text-align:center;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.project-card{
+
+margin-bottom:20px;
+
+}
+
+.project-card img{
+
+height:200px;
+
+}
+
+.skill-card{
+
+padding:25px;
+
+}
+
+.certificate-card{
+
+padding:25px;
+
+}
+
+.contact-info{
+
+font-size:15px;
+
+}
+
+footer h3{
+
+font-size:22px;
+
+}
+
+footer p{
+
+font-size:14px;
+
+}
+
+}
+
+
+/* Small Mobile */
+
+@media screen and (max-width:400px){
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero h2{
+
+font-size:18px;
+
+}
+
+.logo{
+
+font-size:24px;
+
+}
+
+.section-title{
+
+font-size:28px;
+
+}
+
+.btn{
+
+padding:14px;
+
+font-size:15px;
+
+}
+
+.project-card h3{
+
+font-size:22px;
+
+}
+
+.project-card p{
+
+font-size:14px;
+
+}
+
+}
+
+
+/* Landscape Phone */
+
+@media screen and (max-height:500px){
+
+.hero{
+
+padding-top:160px;
+
+}
+
+}
+
+
+/* Images */
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+}
+
+
+/* Prevent horizontal scrolling */
+
+html,
+
+body{
+
+overflow-x:hidden;
+
+}
+
+
+/* Cards */
+
+.skill-card,
+
+.project-card,
+
+.certificate-card{
+
+transition:.4s;
+
+}
+
+
+/* Responsive Forms */
+
+input,
+
+textarea,
+
+button{
+
+max-width:100%;
+
+}
+
+
+/* Responsive Buttons */
+
+.hero-buttons{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+
+/* Responsive Tables */
+
+table{
+
+width:100%;
+
+overflow-x:auto;
+
+display:block;
+
+}
+
+
+/* Responsive Videos */
+
+iframe,
+
+video{
+
+max-width:100%;
+
+}
+
+
+/* End */
