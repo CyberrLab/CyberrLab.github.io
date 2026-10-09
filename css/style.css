@@ -477,6 +477,98 @@ section{
     margin-right:10px;
 }
 
+
+.contact-terminal-prompt {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0 auto 25px;
+    padding: 0 4px;
+    color: #94a3b8;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+.contact-terminal-prompt span {
+    color: #00e5ff;
+    margin-right: 6px;
+}
+
+
+.contact-terminal-prompt span {
+    color: #00e5ff;
+    margin-right: 6px;
+}
+
+
+/* ===========================
+   CYBERRLAB CONTACT TERMINAL
+=========================== */
+
+.contact form {
+    position: relative;
+    max-width: 760px;
+    padding: 32px;
+    margin: auto;
+    background: linear-gradient(145deg, #101923, #080d13);
+    border: 1px solid rgba(0, 229, 255, 0.25);
+    border-radius: 16px;
+    box-shadow:
+        0 0 25px rgba(0, 229, 255, 0.06),
+        inset 0 0 20px rgba(0, 229, 255, 0.025);
+}
+
+.contact form::before {
+    content: "CYBERRLAB // SECURE CONTACT";
+    display: block;
+    color: #00e5ff;
+    font-family: monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #263746;
+}
+
+.contact input,
+.contact textarea {
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #00e5ff;
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.12);
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #8795a5;
+}
+
+.contact form button {
+    letter-spacing: 1px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .contact form {
+        padding: 20px 16px;
+        border-radius: 12px;
+    }
+
+    .contact form::before {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+}
+
 /* ===========================
    FOOTER
 =========================== */
