@@ -838,3 +838,70 @@ font-weight:700;
 /* ===========================
    END
 =========================== */
+
+/* ===========================
+   MOBILE NAVIGATION
+=========================== */
+
+.menu-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    color: #00e5ff;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.hamburger-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hamburger-lines span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #00e5ff;
+    border-radius: 2px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: inline-flex;
+    }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 12px 20px;
+        background: #0d1117;
+        border: 1px solid #30363d;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-links.open a {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+    }
+}
