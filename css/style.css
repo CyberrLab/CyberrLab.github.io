@@ -154,7 +154,7 @@ header{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #00e5ff;
-    box-shadow: 0 0 40px rgba(0,229,255,.5);
+    box-shadow: 0 0 40px rgba(0, 229, 255, 0.5);
 }
 
 .hero h4{
